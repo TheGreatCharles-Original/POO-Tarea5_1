@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Consol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f85400411c5d8a371fe81dcb999616c1ff644be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42fa320cd361f56b650f591e03d424a7a8b62a39")]
 [assembly: System.Reflection.AssemblyProductAttribute("Consol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Consol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
