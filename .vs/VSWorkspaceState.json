@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Consol"
+    "\\Consol",
+    "\\Directorio"
   ],
-  "SelectedNode": "\\Consol\\Consol.csproj",
+  "SelectedNode": "\\Directorio\\ConsoleApp1.csproj",
   "PreviewInSolutionExplorer": false
 }
