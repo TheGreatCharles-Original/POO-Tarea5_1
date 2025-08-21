@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Directorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+042df0244dfb4d15b964d023783f2609723b9b6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2122fef4ab884a6f7982c0b12ae1aa22ec839b73")]
 [assembly: System.Reflection.AssemblyProductAttribute("Directorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Directorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
