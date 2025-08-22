@@ -15,20 +15,67 @@ namespace Directorio.Clases
         public string phonenumber { set; get; }
         public string email { set; get; }
         public DateTime birthDate { set; get; }
+        private string numid { set; get; } // no me dio ningun error por eso no utilice el numid
+
 
         public Persona() // Constructor
         {
             this.names = "Juan"; // Esto es un constructor se usa para inicializar variables
         }
 
+        public Persona(string p_name)
+         {
+             this.names = p_name; 
+         }
+
+        public Persona(string p_name, string p_lastname)
+        {
+            this.names = p_name;
+            this.lastnames = p_lastname;
+        }
+
+
         public string getName() // Esto crea un metodo o funcion sirve para logica interna
         {
             return this.names;
         }
 
-        public void setName(string p_names ) // Esto hace lo mismo pero no devuelve nada
+        public void setName(string p_name ) // Esto hace lo mismo pero no devuelve nada
         {
-            this.names = p_names;
+            this.names = p_name;
         }
+
+        public void setlastname(string p_lastname) // Esto hace lo mismo pero no devuelve nada
+        {
+            this.lastnames = p_lastname;
+        }
+
+        public string getFullName(string p_name, string p_lastname) // Esto hace lo mismo pero no devuelve nada
+        {
+            this.names = p_name;
+            this.lastnames = p_lastname;
+
+            return this.names + " " + this.lastnames;
+        }
+
+        public string getFullName() // Esto hace lo mismo pero no devuelve nada
+        {
+            return this.names + " " + this.lastnames;
+        }
+
+
+        /* public string getFullName(string p_name, string p_lastname) // Esto hace lo mismo pero no devuelve nada
+         {
+
+             return  this.names + " " + this.lastnames;
+
+         }*/
+
+        /* public void setName(string p_names, string p_lastname) // Esto hace lo mismo pero no devuelve nada
+         {
+             this.names = p_names;
+             this.lastnames = p_lastname;
+         }*/
+
     }
 }
